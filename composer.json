@@ -14,5 +14,12 @@
         "psr-4": {
             "Nirajkavishka\\Randuser\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "Nirajkavishka\\Randuser\\RandUserServiceProvider"
+            ]
+        }
     }
 }
